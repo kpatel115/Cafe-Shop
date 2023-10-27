@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Cafe-Shop</title>
     <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
+</head>
+
+<body>
     <header>
-        <nav>
+        <nav class="nav-menu1">
             <ul class="logo">
                 <li>Logo</li>
             </ul>
@@ -23,6 +25,13 @@
                 <li><i>search icon</i></li>
             </ul>
             <ul class="account-nav">
+                <li class="cart">cart</li>
+                <li class="account">user</li>
+            </ul>
+        </nav>
+
+        <nav class="nav-menu2">
+            <ul class="">
                 <li class="cart"></li>
                 <li class="account"></li>
             </ul>
@@ -30,24 +39,28 @@
     </header>
     <main>
         <section id="welcome">
-            <div class="welcome-intro">
-                <h4>COME AND TEST</h4>
-                <h1>The most Delicious Coffee in Town</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio aliquam temporibus enim dolore deserunt consequuntur, inventore sit veniam ipsam excepturi ea iusto earum asperiores. Odio eaque mollitia omnis magnam impedit?</p>
-                <button>Explore More <i>></i></button>
-            </div>
-            <div>
-                <img>
-            </div>
-            <div class="side-social">
-                <ul>
-                    <li>Instagram</li>
-                    <li>Facebook</li>
-                    <li>Twitter</li>
-                    <li><i>Sphere</i></li>
-                    <li><i>Sphere</i></li>
-                    <li><i>Sphere</i></li>
-                </ul>
+            <div class="welcome-container">
+                <div class="welcome-intro">
+                    <h4>COME AND TEST</h4>
+                    <h1>The most Delicious Coffee in Town</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio aliquam temporibus enim
+                        dolore deserunt consequuntur, inventore sit veniam ipsam excepturi ea iusto earum asperiores.
+                        Odio eaque mollitia omnis magnam impedit?</p>
+                    <button>Explore More <i>></i></button>
+                </div>
+                <div class="welcome-img">
+                    <img>
+                </div>
+                <div class="side-social">
+                    <ul>
+                        <li>Instagram</li>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li><i>Sphere</i></li>
+                        <li><i>Sphere</i></li>
+                        <li><i>Sphere</i></li>
+                    </ul>
+                </div>
             </div>
         </section>
         <section id="shopping-home">
@@ -115,6 +128,7 @@
             </div>
         </section>
     </main>
-	<script src="script.js"></script>
-  </body>
+    <script src="script.js"></script>
+</body>
+
 </html>
