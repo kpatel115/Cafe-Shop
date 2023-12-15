@@ -26,6 +26,10 @@ nav {
     display: flex;
     justify-content: center;
 }
+.logo-img{
+  width: 100px;
+  height: 50px;
+}
 .main-nav{
     width: 60%;
     display: flex;
@@ -38,23 +42,48 @@ nav {
 }
 
 #welcome{
-    height: 100vh;
+    height: 90vh;
     margin: 0;
     position: relative;
 }
 .welcome-container{
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex: row;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
 }
+
 .welcome-intro{
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  height: 300px;
+  width: 300px;
+}
+.welcome-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* Change this line to align items to the left */
+  text-align: left; /* Align the text to the left */
+  padding-left: 20px; /* Add some padding to the left for better spacing */
+
+}
+.welcome-intro h4{
+  display: block;
+  font-size: large;
+  letter-spacing: 5px;
+  float: left;
+}
+.welcome-intro h1{
+  font-size: 42px;
+  margin-top: 5px;
+}
+.welcome-intro p{
+  font-size: smaller;
+}
+.welcome-intro button{
+  margin-top: 20px;
+  padding: 10px;
+  color: white;
+  border: 1 px solid white;
+  background-color: salmon;
+
 }
 .welcome-img{
   margin-top: 0px;
@@ -63,7 +92,7 @@ nav {
   border-radius: 8px;
 }
 .welcome-img img{
-
+  
 }
 img{
   max-width:100%;
